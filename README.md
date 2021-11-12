@@ -54,3 +54,21 @@ Mientras esperamos que VSCode termine de crear el contenedor de Docker vamos a a
 | DISPOSITIVO VIRTUAL |
 |-|
 |<img src="https://studyviewer.com/wp-content/uploads/2019/07/android-emulator111111.jpg" >|
+
+Cuando VSCode termine de crear el contenedor de Docker va a iniciar una **bash terminal** para nuestro contenedor. 
+
+| BASH TERMINAL |
+|-|
+|<img src="https://blog.codemagic.io/uploads/2020/04/docker_4.png" >|
+
+En el **bash terminal** vamos a revisar que todo esté funcionando correctamente. En primer lugar vamos a ejecutar el siguiente comando:
+
+```shell 
+flutter doctor 
+```
+
+Idealmente, deben aparecer los siguientes resultados:
+
+| RESULTADOS DE FLUTTER DOCTOR |
+|-|
+|<img src="https://blog.codemagic.io/uploads/2020/04/docker_5.png" >|
