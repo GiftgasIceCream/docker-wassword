@@ -35,7 +35,7 @@ En este repositorio se encuentra el proyecto del equipo Starfish, una aplicació
 
   ### Ejecucion del Programa:
 
-  En primer lugar deben descargar el programa desde este repositorio de Github, extraerlo y luego abrirlo en VSCode. Si descargaron correctamente los **requerimientos de emulación de programa**, debe aparecer un símbolo de Remote Development <img src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.21.0/1620755254563/Microsoft.VisualStudio.Services.Icons.Default" height="50px" width="50px"> en la esquina inferior izquierda de VSCode:  
+  En primer lugar deben descargar el programa desde este repositorio de Github, extraerlo y luego abrirlo en VSCode. Si descargaron correctamente los **requerimientos de emulación de programa**, debe aparecer un símbolo de Remote Development <img src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.21.0/1620755254563/Microsoft.VisualStudio.Services.Icons.Default" height="12px" width="12px"> en la esquina inferior izquierda de VSCode:  
 
 | SÍMBOLO DE REMOTE DEVELOPMENT|
 |-|
