@@ -86,4 +86,4 @@ Tras ejecutar estos comandos se debe estar creando la aplicación de Flutter en 
 
 | PROGRAMA DE FLUTTER EN EJECUCIÓN |
 |-|
-|<img src="https://raw.githubusercontent.com/polilluminato/wassword-flutter/main/screenshot/second.png" >|
+|<img src="https://raw.githubusercontent.com/polilluminato/wassword-flutter/main/screenshot/second.png" width="300">|
