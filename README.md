@@ -76,7 +76,9 @@ Idealmente, deben aparecer los siguientes resultados:
 Una vez revisamos los resultados del **flutter doctor** podemos continuar a ejecutar el programa. Deben digitar los siguientes comandos en el **bash terminal** (El dispositivo virtual de Android debe estar ejecutandose):
 
 ```shell
+flutter upgrade --force
 cd wassword-flutter-main
+flutter pub get
 adb connect host.docker.internal:5555
 adb tcpip 5555
 flutter run
