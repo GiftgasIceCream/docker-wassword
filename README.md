@@ -28,7 +28,15 @@ En este repositorio se encuentra el proyecto del equipo Starfish, una aplicació
 
 - **Requerimientos de Docker**
   - Ejecutar el siguiente comando en CMD para Docker Image de Flutter y AndroidSDK
-  
+
   ```shell
   docker pull matspfeiffer/flutter
   ```
+
+  ### Ejecucion del Programa:
+
+  En primer lugar deben descargar el programa desde este repositorio de Github, extraerlo y luego abrirlo en VSCode. Si descargaron correctamente los **requerimientos de emulación de programa**, debe aparecer un símbolo de Remote Development <img src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.21.0/1620755254563/Microsoft.VisualStudio.Services.Icons.Default" height="50px" width="50px"> en la esquina inferior izquierda de VSCode:  
+
+| SÍMBOLO DE REMOTE DEVELOPMENT|
+|-|
+|<img src="https://blog.codemagic.io/uploads/2020/04/docker_1.png" >|
