@@ -47,7 +47,7 @@ Hacer click sobre el símbolo de Remote Development <img src="https://ms-vscode-
 |-|
 |<img src="https://i.stack.imgur.com/OSnHe.png" >|
 
-Al seleccionar esta opción se va a abrir el explorador de archivos y deberán escoger la carpeta del proyecto **/docker-wassword** (La carpeta que se va a generar automáticamente al extraer el .zip del programa). Una vez seleccionada la carpeta hacer click en la opción **"Open"** del explorador de archivos y VSCode debe reiniciarse y comenzar a crear el contenedor de Docker automáticamente, **este proceso puede demorar unos minutos**. 
+Al seleccionar esta opción se va a abrir el explorador de archivos y deberán escoger la carpeta del proyecto **/docker-wassword-main** (La carpeta que se va a generar automáticamente al extraer el .zip del programa). Una vez seleccionada la carpeta hacer click en la opción **"Open"** del explorador de archivos y VSCode debe reiniciarse y comenzar a crear el contenedor de Docker automáticamente, **este proceso puede demorar unos minutos**. 
 
 Mientras esperamos que VSCode termine de crear el contenedor de Docker vamos a abrir el Virtual Device que descargamos en Android Studio. Abrimos el AVD Manager, buscamos nuestro dispositivo virtual y lo iniciamos oprimiendo el botón <img src="https://cdn.iconscout.com/icon/free/png-256/play-next-forward-replay-arrow-32426.png" height="12px" width="12px">. Una vez que esté corriendo el Virtual Device nos debe quedar algo así:
 
