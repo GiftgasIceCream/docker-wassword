@@ -10,11 +10,13 @@ En este repositorio se encuentra el proyecto del equipo Starfish, una aplicació
 
 **Nuestra proyecto de Docker simula el entorno de Flutter y AndroidSDK necesarios para la aplicación, no el emulador de Android en el que se debe ejecutar.**
 
-
-
 - **Requerimientos de Emulación de Dispositivo:**
   - Instalación de Android Studio
-  - Emulador de Dispositivo Android desde Android Studio
+  - Virtual Device desde Android Studio
+  - **Virtual Device Recomendado:** Pixel XL
+  - **System Image Recomendada:** Pie
+  - **TUTORIAL PARA INSTALAR VIRTUAL DEVICE:** https://developer.android.com/studio/run/managing-avds?hl=es-419
+
 
 - **Requerimientos de Emulación de Programa: (Instalar como extensiones en VSCode)**
   - Docker
@@ -24,3 +26,9 @@ En este repositorio se encuentra el proyecto del equipo Starfish, una aplicació
 |-|
 |<img src="https://blog.codemagic.io/uploads/2020/04/extensions.png" >|
 
+- **Requerimientos de Docker**
+  - Ejecutar el siguiente comando en CMD para Docker Image de Flutter y AndroidSDK
+  
+  ```shell
+  docker pull matspfeiffer/flutter
+  ```
