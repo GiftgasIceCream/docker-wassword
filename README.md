@@ -61,7 +61,7 @@ Cuando VSCode termine de crear el contenedor de Docker va a iniciar una **bash t
 |-|
 |<img src="https://blog.codemagic.io/uploads/2020/04/docker_4.png" >|
 
-En el **bash terminal** vamos a revisar que todo esté funcionando correctamente. En primer lugar vamos a ejecutar el siguiente comando:
+En el **bash terminal** vamos a revisar que todo esté funcionando correctamente. Vamos a ejecutar el siguiente comando:
 
 ```shell 
 flutter doctor 
@@ -72,3 +72,12 @@ Idealmente, deben aparecer los siguientes resultados:
 | RESULTADOS DE FLUTTER DOCTOR |
 |-|
 |<img src="https://blog.codemagic.io/uploads/2020/04/docker_5.png" >|
+
+Una vez revisamos los resultados del **flutter doctor** podemos continuar a ejecutar el programa. Deben digitar los siguientes comandos en el **bash terminal** (El dispositivo virtual de Android debe estar ejecutandose):
+
+```shell
+cd wassword-flutter-main
+adb connect host.docker.internal:5555
+adb tcpip 5555
+flutter run
+```
