@@ -81,3 +81,9 @@ adb connect host.docker.internal:5555
 adb tcpip 5555
 flutter run
 ```
+
+Tras ejecutar estos comandos se debe estar creando la aplicación de Flutter en nuestro dispositivo virtual. Este proceso puede demorar unos minutos. Una vez finalizada la instalación debe quedar algo así:
+
+| PROGRAMA DE FLUTTER EN EJECUCIÓN |
+|-|
+|<img src="https://raw.githubusercontent.com/polilluminato/wassword-flutter/main/screenshot/second.png" >|
