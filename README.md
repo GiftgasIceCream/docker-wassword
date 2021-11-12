@@ -20,4 +20,4 @@ En este repositorio se encuentra el proyecto del equipo Starfish, una aplicació
   - Docker
   - Remote Development
 
-<img src="screenshot/first.png">
+<img src="https://blog.codemagic.io/uploads/2020/04/extensions.png">
