@@ -41,7 +41,7 @@ En primer lugar deben descargar el programa desde este repositorio de Github, ex
 |-|
 |<img src="https://blog.codemagic.io/uploads/2020/04/docker_1.png" >|
 
-Hacer click sobre el símbolo de Remote Development <img src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.21.0/1620755254563/Microsoft.VisualStudio.Services.Icons.Default" height="12px" width="12px"> y debe aparecer una barra de texto en la parte superior de VSCode. En esta barra deben seleccionar la opción **"Open Folden in Container..."**:
+Hacer click sobre el símbolo de Remote Development <img src="https://ms-vscode-remote.gallerycdn.vsassets.io/extensions/ms-vscode-remote/vscode-remote-extensionpack/0.21.0/1620755254563/Microsoft.VisualStudio.Services.Icons.Default" height="12px" width="12px"> y debe aparecer una barra de texto en la parte superior de VSCode. En esta barra deben seleccionar la opción **"Open Folder in Container..."**:
 
 | OPEN FOLDER IN CONTAINER |
 |-|
