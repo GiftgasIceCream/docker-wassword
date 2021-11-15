@@ -3,6 +3,7 @@
   <p align="center">
   </p>
 </div>
+
 **NUESTRO PROYECTO DE DOCKER SIMULA EL ENTORNO DE FLUTTER Y ANDROIDSDK NECESARIOS PARA LA APLICACIÓN, NO EL VIRTUAL DEVICE DE ANDROID NECESARIO PARA PODER VISUALIZAR LA APLICACIÓN.**
 
 En este repositorio se encuentra el proyecto del equipo Starfish, una aplicación de Flutter que se busca virtualizar desde el entorno facilitado por Docker. A lo largo de este archivo de texto se encuentra una guía/tutorial para que los usuarios de sistemas **Windows** puedan ejecutar nuestro proyecto y así poder calificarlo:
