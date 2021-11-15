@@ -3,12 +3,11 @@
   <p align="center">
   </p>
 </div>
+**NUESTRO PROYECTO DE DOCKER SIMULA EL ENTORNO DE FLUTTER Y ANDROIDSDK NECESARIOS PARA LA APLICACIÓN, NO EL VIRTUAL DEVICE DE ANDROID NECESARIO PARA PODER VISUALIZAR LA APLICACIÓN.**
 
-En este repositorio se encuentra el proyecto del equipo Starfish, una aplicación de Flutter que se busca virtualizar desde el entorno facilitado por Docker. A lo largo de este archivo de texto se encuentra una guía/tutorial para que los usuarios de sistemas Windows puedan ejecutar nuestro proyecto y así poder calificarlo:
+En este repositorio se encuentra el proyecto del equipo Starfish, una aplicación de Flutter que se busca virtualizar desde el entorno facilitado por Docker. A lo largo de este archivo de texto se encuentra una guía/tutorial para que los usuarios de sistemas **Windows** puedan ejecutar nuestro proyecto y así poder calificarlo:
 
 ### Requerimientos del Programa:
-
-**Nuestra proyecto de Docker simula el entorno de Flutter y AndroidSDK necesarios para la aplicación, no el emulador de Android en el que se debe ejecutar.**
 
 - **Requerimientos de Emulación de Dispositivo:**
   - Instalación de Android Studio
@@ -49,6 +48,10 @@ Hacer click sobre el símbolo de Remote Development <img src="https://ms-vscode-
 
 Al seleccionar esta opción se va a abrir el explorador de archivos y deberán escoger la carpeta del proyecto **/docker-wassword-main** (La carpeta que se va a generar automáticamente al extraer el .zip del programa). Una vez seleccionada la carpeta hacer click en la opción **"Open"** del explorador de archivos y VSCode debe reiniciarse y comenzar a crear el contenedor de Docker automáticamente, **este proceso puede demorar unos minutos**. 
 
+| FOLDER QUE DEBEN SELECCIONAR |
+|-|
+|<img src="https://media.discordapp.net/attachments/868881690087530497/909640770498207845/unknown.png" >|
+
 Mientras esperamos que VSCode termine de crear el contenedor de Docker vamos a abrir el Virtual Device que descargamos en Android Studio. Abrimos el AVD Manager, buscamos nuestro dispositivo virtual y lo iniciamos oprimiendo el botón <img src="https://cdn.iconscout.com/icon/free/png-256/play-next-forward-replay-arrow-32426.png" height="12px" width="12px">. Una vez que esté corriendo el Virtual Device nos debe quedar algo así:
 
 | DISPOSITIVO VIRTUAL |
@@ -71,7 +74,7 @@ Idealmente, deben aparecer los siguientes resultados:
 
 | RESULTADOS DE FLUTTER DOCTOR |
 |-|
-|<img src="https://blog.codemagic.io/uploads/2020/04/docker_5.png" >|
+|<img src="https://media.discordapp.net/attachments/868881690087530497/909641795825176606/unknown.png" >|
 
 Una vez revisamos los resultados del **flutter doctor** podemos continuar a ejecutar el programa. Deben digitar los siguientes comandos en el **bash terminal** (El dispositivo virtual de Android debe estar ejecutandose):
 
