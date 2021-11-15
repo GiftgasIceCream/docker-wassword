@@ -77,14 +77,29 @@ Idealmente, deben aparecer los siguientes resultados:
 |-|
 |<img src="https://media.discordapp.net/attachments/868881690087530497/909641795825176606/unknown.png" >|
 
-Una vez revisamos los resultados del **flutter doctor** podemos continuar a ejecutar el programa. Deben digitar los siguientes comandos en el **bash terminal** (El dispositivo virtual de Android debe estar ejecutandose):
+Una vez revisamos los resultados del **flutter doctor** podemos continuar a ejecutar el programa. Deben digitar los siguientes comandos en el **bash terminal** en el siguiente orden y por separado (El dispositivo virtual de Android debe estar ejecutandose):
 
 ```shell
 flutter upgrade --force
+```
+
+```shell
 cd wassword-flutter-main
+```
+
+```shell
 flutter pub get
+```
+
+```shell
 adb connect host.docker.internal:5555
+```
+
+```shell
 adb tcpip 5555
+```
+
+```shell
 flutter run
 ```
 
@@ -93,3 +108,5 @@ Tras ejecutar estos comandos se debe estar creando la aplicación de Flutter en 
 | PROGRAMA DE FLUTTER EN EJECUCIÓN |
 |-|
 |<img src="https://raw.githubusercontent.com/polilluminato/wassword-flutter/main/screenshot/second.png" width="300">|
+
+Al poder visualizar la aplicación desde su dispositivo virtual de Android, puede interactuar con ella y generar sus contraseñas.
